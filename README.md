@@ -1,4 +1,4 @@
-# Open JIG Test for FreeCAD
+# Open JIG for FreeCAD
 
 <img alt="Open JIG Test" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/open_jig_test.png" />
 
