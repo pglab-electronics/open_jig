@@ -11,6 +11,8 @@ The JIG is designed to accommodate PCBs up to 90 × 80 mm, making it suitable fo
 This project specifically is specifically for testing, validating and flashing [E-VLXESP32](https://www.pglab.dev/shop/p/e-vlxesp32). 
 However, it can also be adapted for other similarly sized PCB designs.
 
+A short video of the Open JIG in action is available [here](https://www.youtube.com/shorts/A9TetNhfMEE).
+
 ## Status & Usage
 
 The project is almost ready to use. However, some customization is required before fabrication.
