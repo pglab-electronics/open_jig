@@ -1,4 +1,4 @@
-# Open Jig Test for FreeCAD
+# Open JIG Test for FreeCAD
 
 ## Overview
 
@@ -35,6 +35,20 @@ Use a 0.3 mm layer height with 40% infill for all printed parts to ensure a good
 
 The majority of screws used in the design are M5. However, some holes in the Open JIG are sized at 6 mm. In these cases, you must install threaded brass heat-set inserts to ensure proper mechanical strength and durability.
 
+## Pogo Pins & Alignment Pins
+
+The pogo pins and alignment pins must be securely held by the 3D-printed support structure. Ensure that the printed parts provide a firm and stable press-fit or guided fit for all pins.
+
+Use an appropriate drill bit size when finishing the holes to achieve accurate alignment and proper seating of the pins. After fitting, apply a small amount of super glue to secure the pogo pins and alignment pins in place.
+
+In the model, two different types of pogo pins are supported. These pogo pins have been selected and modeled according to components commonly available on the market for purchase. The reference parts used in the design are:
+
+https://www.amazon.it/dp/B07SKD8Q42
+https://www.amazon.it/dp/B0CC2FR9VW
+
+This ensures compatibility with readily available hardware and simplifies sourcing for assembly.
+
+
 ## How to Proceed
 
 To correctly use and adapt this jig design, follow these steps:
@@ -54,7 +68,6 @@ Once positioned, align the pogo pins precisely with the PCB test points.
 Finally, ensure that the two alignment pins are correctly placed and aligned to guarantee repeatable and stable positioning of the PCB during testing.
 
 
-
 ## License
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 
@@ -67,8 +80,6 @@ You are free to:
 
 Under the following terms:
 - Attribution: You must give appropriate credit to the original project.
-
-
 
 
 
