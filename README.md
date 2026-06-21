@@ -77,6 +77,9 @@ Once positioned, align the pogo pins precisely with the PCB test points.
 
 Finally, ensure that the two alignment pins are correctly placed and aligned to guarantee repeatable and stable positioning of the PCB during testing.
 
+<img alt="PCB support" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/pcb_support.png" />
+
+
 
 ## License
 This work is licensed under the Creative Commons Attribution 4.0 International License.
