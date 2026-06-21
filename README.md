@@ -59,6 +59,14 @@ Your PCB must include dedicated test points and at least two alignment pins. The
 
 Make sure to use relatively large-diameter test pads to compensate for small misalignments of the pogo pins and to ensure reliable electrical contact.
 
+As reference, here a top/bottom view of the E-VLXESP32 PCB.
+
+<img alt="Open JIG Test" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/testing_points.png" />
+
+- **Light Blue**: 3 mm alignment pins
+- **Yellow**: pogo pins on the front side of the device, this ensure correct electrical contact and precise alignment of the 5 pogo pins located on the front side of the E-VLXESP32 board.
+- **Red**: test points on the back side of the PCB
+
 From your PCB design software, export the 3D model of your PCB and import it into the FreeCAD project of the Open JIG.
 
 Place the PCB 3D model exactly on top of the body named PCB_Holder_Body inside the FreeCAD assembly. Modify the corner supports to exactly match your PCB dimensions.
