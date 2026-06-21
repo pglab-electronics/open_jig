@@ -23,9 +23,37 @@ However, if you like challenges and DIY projects, the Open Jig Test project is f
 
 To build and assemble this PCB test jig, the following tools are required:
 
-Soldering iron (for electrical connections and assembly)
-3D printer (for printing structural and supporting parts)
-Small drill press (mandatory for precise and accurate hole drilling)
+- Soldering iron (for pogo pins electrical connections)
+- 3D printer (for printing structural and supporting parts)
+- Small drill press (mandatory for precise and accurate hole drilling)
+
+## 3D Printing Notes
+
+All structural parts should be 3D printed using PETG filament only. Do not use PLA, as it is not suitable for mechanical stress and long-term stability in this application.
+
+Use a 0.3 mm layer height with 40% infill for all printed parts to ensure a good balance between strength and print time.
+
+The majority of screws used in the design are M5. However, some holes in the Open JIG are sized at 6 mm. In these cases, you must install threaded brass heat-set inserts to ensure proper mechanical strength and durability.
+
+## How to Proceed
+
+To correctly use and adapt this jig design, follow these steps:
+
+Your PCB must include dedicated test points and at least two alignment pins. The test points can be placed on either the top or bottom side of the PCB, depending on your design requirements.
+
+Make sure to use relatively large-diameter test pads to compensate for small misalignments of the pogo pins and to ensure reliable electrical contact.
+
+From your PCB design software, export the 3D model of your PCB and import it into the FreeCAD project of the Open JIG.
+
+Place the PCB 3D model exactly on top of the body named PCB_Holder_Body inside the FreeCAD assembly. Modify the corner supports to exactly match your PCB dimensions.
+
+In FreeCAD, you must also create guide holes in the body geometry to hold the pogo pins. These holes must be slightly smaller than the pogo pin diameter. At this stage, they are only used as positioning guides for later drilling and refinement to achieve precise final dimensions.
+
+Once positioned, align the pogo pins precisely with the PCB test points.
+
+Finally, ensure that the two alignment pins are correctly placed and aligned to guarantee repeatable and stable positioning of the PCB during testing.
+
+
 
 ## License
 This work is licensed under the Creative Commons Attribution 4.0 International License.
