@@ -1,10 +1,12 @@
 # Open JIG Test for FreeCAD
 
+<img alt="Open JIG Test" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/open_jig_test.png" />
+
 ## Overview
 
 This project is a FreeCAD design for a PCB test jig used for functional testing of small electronic boards.
 
-The jig is designed to accommodate PCBs up to 100 × 100 mm (10 × 10 cm), making it suitable for compact development boards and prototype electronics. All components used in the design are widely available online through major resellers such as Amazon and other electronics suppliers.
+The jig is designed to accommodate PCBs up to 90 × 80 mm, making it suitable for compact development boards and prototype electronics. All components used in the design are widely available online through major resellers such as Amazon and other electronics suppliers.
 
 This project specifically is specifically for testing and validating [E-VLXESP32](https://www.pglab.dev/shop/p/e-vlxesp32). 
 However, it can also be adapted for other similarly sized PCB designs.
@@ -43,8 +45,8 @@ Use an appropriate drill bit size when finishing the holes to achieve accurate a
 
 In the model, two different types of pogo pins are supported. These pogo pins have been selected and modeled according to components commonly available on the market for purchase. The reference parts used in the design are:
 
-https://www.amazon.it/dp/B07SKD8Q42
-https://www.amazon.it/dp/B0CC2FR9VW
+- https://www.amazon.it/dp/B07SKD8Q42
+- https://www.amazon.it/dp/B0CC2FR9VW
 
 This ensures compatibility with readily available hardware and simplifies sourcing for assembly.
 
