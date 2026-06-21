@@ -79,6 +79,7 @@ Finally, ensure that the two alignment pins are correctly placed and aligned to 
 
 <img alt="PCB support" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/pcb_support.png" />
 <img alt="JIG with PCB" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/jig_with_pcb.png" />
+<img alt="Top Pogo PINS" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/top_pogo_pin.png" />
 
 
 
