@@ -19,6 +19,11 @@ The project is almost ready to use. However, some customization is required befo
 
 You need to adapt the FreeCAD model according to your specific PCB dimensions, test points, and mounting hole positions to ensure proper alignment and reliable contact during testing.
 
+The following image shows the elements that need to be customized for your PCB.
+
+<img width=768 alt="JIG Side view" src="https://github.com/pglab-electronics/open_jig_test/blob/main/img/jig_test_side.png" />
+
+
 Assembling the jig requires a certain level of skill and experience. The process can be time-consuming and may involve some trial and error to achieve proper alignment and reliable operation. For this reason, in some cases it may be more practical to purchase a professionally manufactured jig from a specialized supplier.
 
 However, if you like challenges and DIY projects, the Open Jig Test project is for you.
